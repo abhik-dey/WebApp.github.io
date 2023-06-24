@@ -1,0 +1,63 @@
+.listView-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .listView-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .listView-item img {
+    width: 245px;
+    height: 200px;
+    border-radius: 15%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 15px 10px 15px 10px;
+  }
+  
+  .listView-item span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .listView-item span:first-child {
+    margin-right: 5px;
+  }
+
+  .listView-item span.listView-item-firstName {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .ring-image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ring-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .listView-item-id {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: rgb(17, 16, 16);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 5%;
+  }
+  
+  
+  
